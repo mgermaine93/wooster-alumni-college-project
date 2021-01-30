@@ -1,5 +1,5 @@
 // All of the individual sounds
-const bagpipes = new Audio("https://raw.githubusercontent.com/mgermaine93/wooster-alumni-college-project/main/sounds/wooster-alumni-college-track.mp3");
+const bagpipes = new Audio("https://gitcdn.link/repo/mgermaine93/wooster-alumni-college-project/main/sounds/wooster-alumni-college-track.mp3");
 // const sound2 = new Audio("./sounds/test-recording.mp3")
 
 // Puts all the sounds together in one array
