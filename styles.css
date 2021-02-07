@@ -1,17 +1,17 @@
 body {
   background-color: #f1ebd1;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /*   justify-content: center; */
   align-items: center;
 }
 
@@ -21,7 +21,7 @@ h1 {
   height: 592px;
   width: 1000px;
   outline: solid 1px black;
-  display: block;
+  /*   display: block; */
   transition: 0.5s ease;
   z-index: 2;
 }
@@ -37,10 +37,9 @@ h1 {
 .text {
   position: absolute;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
-  padding: 16px 32px;
   top: 200px;
+  text-align: center;
   /* An element with greater stack order is always in front of an element with a lower stack order. */
   z-index: 1;
 }
